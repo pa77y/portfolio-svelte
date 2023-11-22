@@ -1,0 +1,29 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	background-color: black;
+}
+
+// ScrollBar styles
+// * ::-webkit-scrollbar {
+// 	width: 20px;
+// 	height: 20px;
+// }
+
+// * ::-webkit-scrollbar-track {
+// 	border-radius: 100vh;
+// 	background: theme('colors.primary.100');
+// }
+
+// * ::-webkit-scrollbar-thumb {
+// 	background: var(--secondary);
+// 	border-radius: 100vh;
+// 	border: 3px solid var(--primary);
+// }
+
+// * ::-webkit-scrollbar-thumb:hover {
+// 	background: #c0a0b9;
+// }

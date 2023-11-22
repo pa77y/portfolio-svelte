@@ -2,6 +2,10 @@
 	import Header from '$lib/Header/Header.svelte';
 	import Particles from '$lib/Particles/Particles.svelte';
 	import '../app.scss';
+	import { dev } from '$app/environment';
+	import { inject } from '@vercel/analytics';
+
+	inject({ mode: dev ? 'development' : 'production' });
 </script>
 
 <Particles />
